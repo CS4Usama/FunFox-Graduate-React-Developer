@@ -1,39 +1,94 @@
-.App {
-    text-align: center;
+/* Prototype */
+body {
+    background: #F8D1E0;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+.left-side-vector {
+    position: absolute;
+    top: 6.5em;
+    left: 0;
+    height: 115%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
+.pencil-icon {
+    position: absolute;
+    top: 6.75em;
+    left: 0;
+}
+
+.school-bag-icon {
+    position: absolute;
+    top: 23.35em;
+    left: 0;
+}
+
+.notebook-icon {
+    position: absolute;
+    bottom: -9em;
+    left: 0;
+}
+
+
+.right-side-vector {
+    position: absolute;
+    top: 2.5em;
+    right: 0;
+}
+
+.scale-icon {
+    position: absolute;
+    top: 6.75em;
+    right: 0;
+}
+
+.book-icon {
+    position: absolute;
+    top: 24em;
+    right: 0;
+}
+
+.bachelor-cap-icon {
+    position: absolute;
+    bottom: -8em;
+    right: 0;
+}
+
+
+
+/* Responsive Breakpoints for Different Screens */
+
+@media only screen and (max-width: 1200px) {
+    .left-side-vector {
+        height: 88%;
+    }
+    .pencil-icon {
+        top: 6.88em;
+    }
+    .school-bag-icon {
+        top: 24.50em;
+    }
+    .notebook-icon {
+        bottom: 4.05em;
+    }
+    .bachelor-cap-icon {
+        bottom: 5.5em;
     }
 }
 
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+
+@media only screen and (max-width: 992px) {
+    .left-side-vector {
+        height: 105%;
+    }
+    .notebook-icon {
+        bottom: -4.35em;
+    }
+    .bachelor-cap-icon {
+        bottom: -3em;
+    }
 }
 
-.App-link {
-    color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+@media only screen and (max-width: 768px) {
+    
 }

@@ -1,0 +1,52 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0;
+}
+
+.speak-icon-container {
+    width: 33.33%;
+    margin: auto;
+}
+
+.pagination {
+    /* display: inline-block; */
+    width: 33.33%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.info-icon-container {
+    width: 33.33%;
+    margin: auto;
+    text-align: right;
+    float: right;
+}
+
+.info-icon {
+    /* margin-right: 0; */
+}
+
+
+/* Dropdown Styling */
+div select {
+    font-family: "Short Stack", cursive;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    background-color: #CD3F97;
+    border: 2px solid #F8EBFD;
+    border-radius: 0.45em;
+    padding: 0.15em 0.75em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+select {
+    margin-bottom: -2em;
+}
