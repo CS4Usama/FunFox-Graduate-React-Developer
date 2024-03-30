@@ -8,6 +8,7 @@ body {
     top: 6.5em;
     left: 0;
     height: 115%;
+    z-index: -1;
 }
 
 .pencil-icon {
@@ -33,6 +34,7 @@ body {
     position: absolute;
     top: 2.5em;
     right: 0;
+    z-index: -1;
 }
 
 .scale-icon {
@@ -90,5 +92,30 @@ body {
 
 
 @media only screen and (max-width: 768px) {
-    
+    .pencil-icon {
+        width: 6.5%;
+    }
+    .school-bag-icon {
+        width: 6.5%;
+        top: 20.25em;
+    }
+    .notebook-icon {
+        width: 6.5%;
+        bottom: -4.75em;
+    }
+    .right-side-vector {
+        height: 115%;
+    }
+    .scale-icon {
+        width: 9%;
+        top: 6.5em;
+    }
+    .book-icon {
+        width: 7.25%;
+        top: 21.5em;
+    }
+    .bachelor-cap-icon {
+        width: 7.25%;
+        bottom: -3.75em;
+    }
 }

@@ -2,3 +2,19 @@
     position: absolute;
     top: 0.40em;
 }
+
+
+
+/* Responsive Breakpoints for Different Screens */
+
+@media only screen and (max-width: 768px) {
+    .funfox-logo {
+        margin-top: -0.3em;
+        margin-left: -0.3em;
+    }
+    .week-1 {
+        width: 9.25rem;
+        top: 0.45em;
+        left: 9rem;
+    }
+}

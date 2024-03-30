@@ -5,7 +5,6 @@
     margin-top: -3.6rem;
     margin-left: auto;
     margin-right: auto;
-    /* height: auto; */
     width: 90%;
 }
 
@@ -17,6 +16,7 @@
     border-radius: 1em;
     box-shadow: 0px 0px 11.047767639160156px 0px #00000040;
     padding: 0.05em 0.8em;
+    z-index: 1;
 }
 
 .wc-term {
@@ -41,7 +41,6 @@
     font-size: 1.5em;
     color: #FFFFFF;
     padding: 0.30em 0.50em 0.5em 0.50em;
-    /* width: 88%; */
 }
 
 .girl-student {
@@ -56,9 +55,7 @@
 /* Elements of Story Writing – Clouds */
 .cloud-section {
     display: grid;
-    /* grid-template-columns: auto auto auto auto auto; */
     grid-template-columns: repeat(auto-fit, minmax(11.55em, 1fr));
-    /* column-gap: 1em; */
     text-align: center;
     margin-top: 1.5em;
 }
@@ -74,8 +71,6 @@
 .text-board-parent {
     position: relative;
     margin-top: 1em;
-    /* border: 1px solid red; */
-    /* width: 100%; */
 }
 
 .text-board {
@@ -90,7 +85,6 @@
     top: 0.8em;
     left: 2.3em;
     right: 2.15em;
-    /* transform: translate(-50%, -50%); */
 }
 
 .story-setting-text {
@@ -118,7 +112,6 @@
     }
     .wc-term-text-2 {
         font-size: 1.35em;
-        color: #1E242F;
         padding: 0.40em 0.55em;
     }
     .board-text {
@@ -165,5 +158,34 @@
 
 
 @media only screen and (max-width: 768px) {
-
+    .main-pink-heading {
+        font-size: 1.5em;
+    }
+    .wc-term {
+        font-size: 1em;
+    }
+    .elements-text {
+        font-size: 1em;
+    }
+    .girl-student {
+        top: -0.65em;
+        width: 6.15em;
+        height: 8.15em;
+    }
+    .cloud-section {
+        grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
+    }
+    .wc-term-text-2 {
+        font-size: 1em;
+        padding: 0.50em 0.55em;
+    }
+    .text-board-parent {
+        margin-top: 0.60em;
+    }
+    .board-text {
+        font-size: 1em;
+        top: 0.3em;
+        left: 2em;
+        right: 1.5em;
+    }
 }
