@@ -1,58 +1,11 @@
-/* Prototype */
-body {
-    background: #F8D1E0;
-}
-
-.left-side-vector {
-    position: absolute;
-    top: 6.5em;
-    left: 0;
-    height: 115%;
-    z-index: -1;
-}
-
-.pencil-icon {
-    position: absolute;
-    top: 6.75em;
-    left: 0;
-}
-
-.school-bag-icon {
-    position: absolute;
-    top: 23.35em;
-    left: 0;
-}
-
-.notebook-icon {
-    position: absolute;
-    bottom: -9em;
-    left: 0;
-}
-
-
-.right-side-vector {
-    position: absolute;
-    top: 2.5em;
-    right: 0;
-    z-index: -1;
-}
-
-.scale-icon {
-    position: absolute;
-    top: 6.75em;
-    right: 0;
-}
-
-.book-icon {
-    position: absolute;
-    top: 24em;
-    right: 0;
-}
-
-.bachelor-cap-icon {
-    position: absolute;
-    bottom: -8em;
-    right: 0;
+.main-white-box {
+    background: #F7F9FE;
+    border-radius: 1em;
+    padding: 1.25em 1.15em;
+    margin-top: -3.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 
@@ -60,62 +13,14 @@ body {
 /* Responsive Breakpoints for Different Screens */
 
 @media only screen and (max-width: 1200px) {
-    .left-side-vector {
-        height: 88%;
-    }
-    .pencil-icon {
-        top: 6.88em;
-    }
-    .school-bag-icon {
-        top: 24.50em;
-    }
-    .notebook-icon {
-        bottom: 4.05em;
-    }
-    .bachelor-cap-icon {
-        bottom: 5.5em;
+    .main-white-box {
+        padding: 1.35em 1.15em;
     }
 }
 
 
 @media only screen and (max-width: 992px) {
-    .left-side-vector {
-        height: 105%;
-    }
-    .notebook-icon {
-        bottom: -4.35em;
-    }
-    .bachelor-cap-icon {
-        bottom: -3em;
-    }
-}
-
-
-@media only screen and (max-width: 768px) {
-    .pencil-icon {
-        width: 6.5%;
-    }
-    .school-bag-icon {
-        width: 6.5%;
-        top: 20.25em;
-    }
-    .notebook-icon {
-        width: 6.5%;
-        bottom: -4.75em;
-    }
-    .right-side-vector {
-        height: 115%;
-    }
-    .scale-icon {
-        width: 9%;
-        top: 6.5em;
-    }
-    .book-icon {
-        width: 7.25%;
-        top: 21.5em;
-    }
-    .bachelor-cap-icon {
-        width: 7.25%;
-        bottom: -3.75em;
+    .main-white-box {
+        width: 87%;
     }
 }

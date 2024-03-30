@@ -1,17 +1,11 @@
 import "./Slide1.css";
 import "../../App.css";
 import Header from "../../commonComponents/header/Header";
+import Prototype from "../../commonComponents/prototype/Prototype";
 import Footer from "../../commonComponents/footer/Footer";
 import ElementCloud from "../../components/elementCloud/ElementCloud";
 import Week1 from "../../assets/slide-1/week-1.svg";
-import LeftSideVector from "../../assets/left-side-vector.svg";
-import PencilIcon from "../../assets/pencil-icon.svg";
-import SchoolBagIcon from "../../assets/school-bag-icon.svg";
-import NotebookIcon from "../../assets/notebook-icon.svg";
-import RightSideVector from "../../assets/right-side-vector.svg";
-import ScaleIcon from "../../assets/scale-icon.svg";
 import BookIcon from "../../assets/slide-1/book-icon.svg";
-import BachelorCapIcon from "../../assets/bachelor-cap-icon.svg";
 import GirlStudent from "../../assets/slide-1/girl-student.svg";
 import Cloud1 from "../../assets/slide-1/cloud-1.svg";
 import Cloud2 from "../../assets/slide-1/cloud-2.svg";
@@ -23,17 +17,7 @@ export default function Slide1() {
     return (
         <>
             <Header img={Week1} />
-
-            <img src={LeftSideVector} className='left-side-vector' alt="Vector" draggable='false' />
-            <img src={PencilIcon} className='pencil-icon' alt="Pencil" draggable='false' />
-            <img src={SchoolBagIcon} className='school-bag-icon' alt="School Bag" draggable='false' />
-            <img src={NotebookIcon} className='notebook-icon' alt="Notebook" draggable='false' />
-
-            <img src={RightSideVector} className='right-side-vector' alt="Vector" draggable='false' />
-            <img src={ScaleIcon} className='scale-icon' alt="Scale" draggable='false' />
-            <img src={BookIcon} className='book-icon' alt="Book" draggable='false' />
-            <img src={BachelorCapIcon} className='bachelor-cap-icon' alt="Bachelor Cap" draggable='false' />
-
+            <Prototype img={BookIcon} cName='book-icon' imgAlt="Book" />
 
             <section className="main-white-box">
                 <div style={{textAlign: 'center'}}>

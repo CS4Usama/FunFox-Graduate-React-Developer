@@ -6,8 +6,7 @@ import PreviousIcon from "../../assets/previous-icon.svg";
 import NextIcon from "../../assets/next-icon.svg";
 
 
-export default function Footer() {
-
+export default function Footer(props) {
     const navigate = useNavigate();
     const handleSelectChange = (e) => {
         const selectedValue = parseInt(e.target.value);
@@ -23,18 +22,22 @@ export default function Footer() {
             <div className='speak-icon-container'>
                 <img src={SpeakIcon} className='speak-icon' alt="Speak" draggable='false' />
             </div>
+
             <div className='pagination'>
-                <Link to="/" className='previous-icon'>
-                    <img src={PreviousIcon} className='-icon' alt="Previous" draggable='false' />
+                <Link to="/">
+                    <img src={PreviousIcon} className='previous-icon' alt="Previous" draggable='false' />
                 </Link>
+
                 <select onChange={handleSelectChange}>
                     <option value='1'> 1 </option>
-                    <option value='2'> 2 </option>
+                    <option value='2' selected={props.selection}> 2 </option>
                 </select>
-                <Link to="/slide-2" className='next-icon'>
-                    <img src={NextIcon} className='-icon' alt="Next" draggable='false' />
+
+                <Link to="/slide-2">
+                    <img src={NextIcon} className='next-icon' alt="Next" draggable='false' />
                 </Link>
             </div>
+
             <div className='info-icon-container'>
                 <img src={InfoIcon} className='info-icon' alt="Info" draggable='false' />
             </div>
