@@ -11,15 +11,15 @@ import BachelorCapIcon from "../../assets/bachelor-cap-icon.svg";
 export default function Prototype(props) {
     return (
         <>
-            <img src={LeftSideVector} className='left-side-vector' alt="Vector" draggable='false' />
-            <img src={PencilIcon} className='pencil-icon' alt="Pencil" draggable='false' />
-            <img src={SchoolBagIcon} className='school-bag-icon' alt="School Bag" draggable='false' />
-            <img src={NotebookIcon} className='notebook-icon' alt="Notebook" draggable='false' />
+            <img src={LeftSideVector} className={props.cNameLeftVector} alt="Vector" draggable="false" />
+            <img src={PencilIcon} className="pencil-icon" alt="Pencil" draggable="false" />
+            <img src={SchoolBagIcon} className={props.cNameBag} alt="School Bag" draggable="false" />
+            <img src={NotebookIcon} className={props.cNameNotebook} alt="Notebook" draggable="false" />
 
-            <img src={RightSideVector} className='right-side-vector' alt="Vector" draggable='false' />
-            <img src={ScaleIcon} className='scale-icon' alt="Scale" draggable='false' />
-            <img src={props.img} className={props.cName} alt={props.imgAlt} draggable='false' />
-            <img src={BachelorCapIcon} className='bachelor-cap-icon' alt="Bachelor Cap" draggable='false' />
+            <img src={RightSideVector} className={props.cNameRightVector} alt="Vector" draggable="false" />
+            <img src={ScaleIcon} className="scale-icon" alt="Scale" draggable="false" />
+            <img src={props.img} className={props.cNameBookHelp} alt={props.imgAlt} draggable="false" />
+            <img src={BachelorCapIcon} className={props.cNameBcap} alt="Bachelor Cap" draggable="false" />
         </>
     );
 }

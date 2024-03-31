@@ -1,0 +1,224 @@
+.dest-setting-text {
+    font-size: 2em;
+    margin-top: -0.25em;
+    margin-bottom: 0.35em;
+}
+
+.mint-think-text {
+    font-size: 1.5em;
+}
+
+
+/* Images Styling */
+.image-parent-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    justify-items: center;
+    align-items: start;
+    margin: 0.85em 0 1.5em 0;
+}
+
+.figure-container-1, .figure-container-2 {
+    width: 20rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.figure-container-1 {
+    margin-left: 7em;
+}
+.figure-container-2 {
+    margin-right: 7em;
+}
+
+.sunny-beach-image, .haunted-house-image {
+    border: 3px dashed #CCCCCC;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #0000001A inset;
+    background: #FFFFFF;
+    padding: 0.6em 1.6em;
+}
+
+.figcaption-text {
+    font-size: 1.25em;
+    color: #000000;
+    /* width: 60%; */
+    margin: auto;
+}
+
+
+/* Guess Input */
+.setting-def-text {
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+.parent-wrapper {
+    margin-bottom: 1.25em;
+}
+
+.input-container {
+    /* display: inline; */
+    vertical-align: baseline;
+}
+
+.label-text {
+    font-size: 1.25em;
+    padding-right: 0.5em;
+}
+
+span.input-wrapper {
+    border: 3px dashed #CCCCCC;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 0.4em 0.75em 0.7em 0.65em;
+}
+
+span.input-wrapper:hover, span.input-wrapper:focus, span.input-wrapper:active {
+    border: 3px solid #CCCCCC;
+}
+
+#guess-inp {
+    font-size: 1em;
+    font-family: "Short Stack", cursive;
+    color: #1E242F;
+    width: 65%;
+    outline: none;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #B6B6B6;
+    margin-bottom: -10em;
+}
+
+.hint-text {
+    font-size: 1.25em;
+    margin-left: 1.25em;
+}
+
+.time-clock-icon-1, .place-icon-1 {
+    width: 2em;
+    margin-left: 0.75em;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+
+/* Setting of the Story – Green Box */
+.setting-green-box {
+    background: #25A3A1;
+    border: 3px dashed #A4FDFB;
+    box-shadow: 0px 0px 10px 0px #00000040;
+}
+
+.setting-text {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    padding: 0.30em 1em 0.30em 0.50em;
+}
+
+.time-clock-icon-2, .place-icon-2 {
+    width: 1.5em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.story-text {
+    font-size: 1.25em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+
+/* Responsive Breakpoints for Different Screens */
+
+@media only screen and (max-width: 1200px) {
+    #guess-inp {
+        width: 56%;
+    }
+    .setting-text {
+        font-size: 1.35em;
+        padding: 0.45em 0.50em 0.60em 0.55em;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .dest-setting-text {
+        font-size: 1.75em;
+        line-height: 1.3em;
+    }
+    .mint-think-text {
+        font-size: 1.35em;
+    }
+    .figure-container-1 {
+        margin-left: 4em;
+    }
+    .figure-container-2 {
+        margin-right: 4em;
+    }
+    .figcaption-text {
+        font-size: 1.15em;
+    }
+    #guess-inp {
+        width: 47%;
+    }
+    .setting-text {
+        font-size: 1.25em;
+        padding: 0.45em 0em 0.60em 0.55em;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .dest-setting-text {
+        font-size: 1.5em;
+        line-height: 1.25em;
+    }
+    .mint-think-text {
+        font-size: 1.1em;
+    }
+    .figure-container-1 {
+        margin-left: 0;
+    }
+    .figure-container-2 {
+        margin-right: 0;
+    }
+    .figcaption-text {
+        font-size: 1em;
+    }
+    .setting-def-text {
+        font-size: 1.1em;
+    }
+    .label-text {
+        font-size: 1.1em;
+    }
+    span.input-wrapper {
+        padding: 0.25em 0.7em 0.45em 0.6em;
+    }
+    #guess-inp {
+        width: 45%;
+    }
+    .hint-text {
+        font-size: 1.1em;
+        margin-left: 1em;
+    }
+    .time-clock-icon-1, .place-icon-1 {
+        width: 1.75em;
+        margin-left: 0.5em;
+        margin-bottom: 3.5px;
+    }
+    .setting-text {
+        font-size: 1em;
+        line-height: 1.5em;
+        padding-bottom: 0.30em;
+    }
+    .story-text {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+}
