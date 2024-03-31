@@ -1,3 +1,13 @@
+# Deploy Links:
+- **Firebase Deploy Link:** </br>
+https://funfox-grd-assessment.web.app </br>
+https://funfox-grd-assessment.firebaseapp.com
+
+- **Surge Deploy Link:**
+https://funfox-grd-assessment.surge.sh
+
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
