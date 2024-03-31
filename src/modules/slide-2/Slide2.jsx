@@ -50,9 +50,9 @@ export default function Slide2() {
 
                 <div className="parent-wrapper">
                     <span className="input-container">
-                        <label htmlFor="guess-inp" className="label-text">Any guesses?</label>
+                        <label htmlFor="guess-input" className="label-text">Any guesses?</label>
                         <span className="input-wrapper">
-                            <input type="text" id="guess-inp" name="Guess" />
+                            <input type="text" id="guess-input" name="Guess" />
                         </span>
                     </span>
 

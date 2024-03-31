@@ -77,7 +77,7 @@ span.input-wrapper:hover, span.input-wrapper:focus, span.input-wrapper:active {
     border: 3px solid #CCCCCC;
 }
 
-#guess-inp {
+#guess-input {
     font-size: 1em;
     font-family: "Short Stack", cursive;
     color: #1E242F;
@@ -137,7 +137,7 @@ input[type=text] {
 /* Responsive Breakpoints for Different Screens */
 
 @media only screen and (max-width: 1200px) {
-    #guess-inp {
+    #guess-input {
         width: 56%;
     }
     .setting-text {
@@ -164,7 +164,7 @@ input[type=text] {
     .figcaption-text {
         font-size: 1.15em;
     }
-    #guess-inp {
+    #guess-input {
         width: 47%;
     }
     .setting-text {
@@ -200,7 +200,7 @@ input[type=text] {
     span.input-wrapper {
         padding: 0.25em 0.7em 0.45em 0.6em;
     }
-    #guess-inp {
+    #guess-input {
         width: 45%;
     }
     .hint-text {
