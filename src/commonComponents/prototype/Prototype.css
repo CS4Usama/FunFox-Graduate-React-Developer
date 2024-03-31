@@ -160,19 +160,36 @@ body {
 
 
 @media only screen and (max-width: 768px) {
+    .left-side-vector-2 {
+        height: 110%;
+    }
     .pencil-icon {
+        width: 6.5%;
+    }
+    .pencil-icon-2 {
         width: 6.5%;
     }
     .school-bag-icon {
         width: 6.5%;
         top: 20.25em;
     }
+    .school-bag-icon-2 {
+        width: 6.5%;
+        top: 21em;
+    }
     .notebook-icon {
         width: 6.5%;
         bottom: -4.75em;
     }
+    .notebook-icon-2 {
+        width: 6.5%;
+        bottom: -7.15em;
+    }
     .right-side-vector {
         height: 115%;
+    }
+    .right-side-vector-2 {
+        height: 125%;
     }
     .scale-icon {
         width: 9%;
@@ -183,11 +200,15 @@ body {
         top: 21.5em;
     }
     .help-icon {
-        width: 7.25%;
-        /* top: 21.5em; */
+        width: 6.75%;
+        top: 19.25em;
     }
     .bachelor-cap-icon {
         width: 7.25%;
         bottom: -3.75em;
+    }
+    .bachelor-cap-icon-2 {
+        width: 7.25%;
+        bottom: -5.5em;
     }
 }

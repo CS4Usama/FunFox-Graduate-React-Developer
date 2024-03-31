@@ -27,6 +27,7 @@
 .figure-container-1 {
     margin-left: 7em;
 }
+
 .figure-container-2 {
     margin-right: 7em;
 }
@@ -42,7 +43,6 @@
 .figcaption-text {
     font-size: 1.25em;
     color: #000000;
-    /* width: 60%; */
     margin: auto;
 }
 
@@ -57,7 +57,6 @@
 }
 
 .input-container {
-    /* display: inline; */
     vertical-align: baseline;
 }
 
@@ -176,7 +175,7 @@ input[type=text] {
 
 @media only screen and (max-width: 768px) {
     .dest-setting-text {
-        font-size: 1.5em;
+        font-size: 1.35em;
         line-height: 1.25em;
     }
     .mint-think-text {
