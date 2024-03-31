@@ -17,10 +17,11 @@ export default function Slide1() {
     return (
         <>
             <Header img={Week1} />
+
             <Prototype
-                img={BookIcon} cNameLeftVector='left-side-vector' cNameBag='school-bag-icon' cNameNotebook='notebook-icon'
-                cNameRightVector='right-side-vector' cNameBookHelp='book-icon' imgAlt='Book'
-                cNameBcap='bachelor-cap-icon'
+                img={BookIcon} cNameLeftVector='left-side-vector' cNameBag='school-bag-icon'
+                cNameNotebook='notebook-icon' cNameRightVector='right-side-vector'
+                cNameBookHelp='book-icon' imgAlt='Book' cNameBcap='bachelor-cap-icon'
             />
 
             <section className="main-white-box">

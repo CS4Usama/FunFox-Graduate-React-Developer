@@ -30,7 +30,7 @@ export default function Footer(props) {
                     <img src={PreviousIcon} className="previous-icon" alt="Previous" draggable="false" />
                 </Link>
 
-                <select defaultValue={props.selectedValue} onChange={handleSelectChange} name="Page">
+                <select name="Page" defaultValue={props.selectedValue} onChange={handleSelectChange}>
                     <option value="1"> 1 </option>
                     <option value="2"> 2 </option>
                 </select>

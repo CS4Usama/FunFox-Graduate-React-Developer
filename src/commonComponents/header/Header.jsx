@@ -7,7 +7,7 @@ export default function Header(props) {
         <>
             <img src={FunFoxLogo} className="funfox-logo" alt="FunFox Logo" draggable="false" />
             {
-                props.isImage ?
+                props.isWeek ?
                     null
                 :
                     <img src={props.img} className="week-1" alt="Week 1" draggable="false" />

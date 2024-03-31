@@ -2,6 +2,7 @@ body {
     background: #F8D1E0;
 }
 
+/* Left Side */
 .left-side-vector {
     position: absolute;
     top: 6.5em;
@@ -43,6 +44,7 @@ body {
 }
 
 
+/* Right Side */
 .right-side-vector {
     position: absolute;
     top: 2.5em;

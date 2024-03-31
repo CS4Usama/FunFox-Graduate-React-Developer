@@ -13,11 +13,12 @@ import HomePlaceIcon from "../../assets/slide-2/home-place-icon.svg";
 export default function Slide2() {
     return (
         <>
-            <Header isImage="false" />
+            <Header isWeek="false" />
+
             <Prototype
-                img={HelpIcon} cNameLeftVector='left-side-vector-2' cNameBag='school-bag-icon-2' cNameNotebook='notebook-icon-2'
-                cNameRightVector='right-side-vector-2' cNameBookHelp='help-icon' imgAlt='Book'
-                cNameBcap='bachelor-cap-icon-2'
+                img={HelpIcon} cNameLeftVector='left-side-vector-2' cNameBag='school-bag-icon-2'
+                cNameNotebook='notebook-icon-2' cNameRightVector='right-side-vector-2'
+                cNameBookHelp='help-icon' imgAlt='Book' cNameBcap='bachelor-cap-icon-2'
             />
 
             <section className="main-white-box">
